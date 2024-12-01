@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cutiecakes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero" id="Home">
+        <header class="header">
+            <img src="images/logo2.png" alt="Logo" class="logo">
+            <nav class="nav">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#products">Cupcakes</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </header>
+    </section>
+    <section id="About">
+        <div class="about content">
+            <img src="images/logo1.png" alt="About Image">
+            <div class="about-text">
+                <h2>Welcome, cutie!</h2>
+                <p>Our name, <b>Cutiecakes</b>, comes from the word <b>'cutie cupcakes'</b> which reflects our passion for creating adorable and delightful treats.<br> At Cutiecakes, we specialize in crafting cupcakes that are as charming as they are delicious. Each cupcake is baked fresh daily, using high-quality ingredients and a sprinkle of love. From classic flavors to unique creations, we aim to bring a smile to your face with every bite. <3</p>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="products content">
+            <h1>OUR <b>CUPCAKES</b> JUST FOR YOU!</h1>
+            <div class="product1 box">
+                <img src="images/product1.png" alt="Product 1">
+                <h3>STRAWBERRY SNOW</h3>
+                <p>A fluffy cupcake topped with snowy white frosting and fresh strawberries.</p>
+            </div>
+            <div class="product2 box">
+                <img src="images/product2.png" alt="Product 2">
+                <h3>FESTIVE CHARM</h3>
+                <p>A rich chocolate cupcake with festive cream and colorful candy sprinkles.</p>
+            </div>
+            <div class="product3 box">
+                <img src="images/product3.png" alt="Product 3">
+                <h3>BLUE BERRY</h3>
+                <p>A moist cupcake decorated with blueberries, green accents, and a hint of strawberry.</p>
+            </div>
+            <div class="product4 box">
+                <img src="images/product4.png" alt="Product 4">
+                <h3>CINNAMON PUFF</h3>
+                <p>A light cupcake dusted with cinnamon and topped with a fresh strawberry.</p>
+            </div>
+            <div class="product5 box">
+                <img src="images/product5.png" alt="Product 5">
+                <h3>BERRY GARDEN</h3>
+                <p>A fruity cupcake topped with mixed berries and creamy white frosting.</p>
+            </div>
+            <div class="product6 box">
+                <img src="images/product6.png" alt="Product 6">
+                <h3>CARAMEL BERRY</h3>
+                <p>A decadent cupcake drizzled with caramel and topped with ripe strawberries.</p>
+            </div>
+            <div class="product7 box">
+                <img src="images/product7.png" alt="Product 7">
+                <h3>CHOCO CRUMBLE</h3>
+                <p>A chocolate cupcake layered with crunchy crumble and creamy frosting.</p>
+            </div>
+            <div class="product8 box">
+                <img src="images/product8.png" alt="Product 8">
+                <h3>GOLDEN BLISS</h3>
+                <p>A golden cupcake crowned with a buttery topping and fresh garnish.</p>
+            </div>
+            <div class="product9 box">
+                <img src="images/product9.png" alt="Product 9">
+                <h3>BERRY VELVETY</h3>
+                <p>A velvety cupcake with smooth white frosting and juicy blueberries.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="Contact">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo1.png" alt="Cutiecakes Logo">
+                <p><img src="images/loclogo.png" alt="Facebook" class="location-icon">Mariveles, Bataan, Philippines</p>
+            </div>
+            <div class="footer-info">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#products">Cupcakes</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><img src="images/phonelogo.png" alt="Facebook" class="contact-icon"> 09123456789</p>
+                <p><img src="images/emaillogo.png" alt="Facebook" class="contact-icon"> cutiecakes@gmail.com</p>
+                <h4>Follow Us</h4>
+                <p>
+                    <a href="#"><img src="images/fblogo.png" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="images/instalogo.png" alt="Instagram" class="social-icon"></a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Copyright 2024</p>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+    
+</body>
+</html>
