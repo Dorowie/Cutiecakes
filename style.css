@@ -231,3 +231,71 @@ body {
     border-top: 1px solid #ec2a7b;
     padding-top: 10px;
 }
+
+@media (max-width: 480px) {
+
+    
+    .header {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav {
+        gap: 10px;
+    }
+
+    .nav a {
+        font-size: 12px;
+    }
+
+    .hero{
+        height: 47.5vh;
+        background: url('images/480bg.png') no-repeat center center / cover;
+    }
+
+    .hero img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .about img{
+        display: none;
+    }
+    .about-text p{
+        font-size: 18px;
+    }
+
+    .hero h1 {
+        font-size: 1.2em;
+    }
+
+    .about-text h2,
+    .products h3 {
+        font-size: 45px;
+    }
+
+    .products h1{
+        font-size: 61px;
+    }
+    .products{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 120px;
+    }
+
+    .footer-info h4 {
+        font-size: 16px;
+    }
+
+    .footer-content{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}   
